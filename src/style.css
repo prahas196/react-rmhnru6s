@@ -1,0 +1,99 @@
+body {
+  background-image: url('https://png.pngtree.com/background/20210716/original/pngtree-white-abstract-vector-web-background-design-picture-image_1354906.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.header {
+  background-color: #3D52A0; /* Darkest shade from the palette */
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  font-family: Comic Sans MS;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #7091E6; /* Second darkest shade */
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner {
+  text-align: center;
+  padding: 2em 0;
+  background-color: #ADBBDA; /* Mid-tone from the palette */
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #EDE8F5; /* Lightest shade */
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for uniform size */
+  object-fit: cover; /* Ensures the image fits within the container without distortion */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #3D52A0; /* Darkest shade */
+  color: white;
+}
+
+.contact {
+  padding: 2em;
+  background-color: #8697C4; /* Second lightest shade */
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #3D52A0; /* Darkest shade */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact button:hover {
+  background-color: #7091E6; /* Second darkest shade */
+}
